@@ -14,7 +14,7 @@
  
  p {
     font-size: 20px;
-    color: grey
+    color: white
  }
 
 li {
@@ -98,4 +98,41 @@ h3 {
 .contenedor-pb a {
     display: inline-block;
     margin-top: 30px;
+}
+
+
+.contenedor-servicio {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+
+}
+
+.servicio {
+    width: 20%;
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    color: aliceblue;
+   
+}
+
+
+.celeste {
+    background-color: #5cb8ff
+    
+}
+
+.violeta {
+    background-color: #5055df;
+}
+
+.servicio h4 {
+    font-size: 25;
+}
+
+
+
+.servicio img {
+    float: right;
 }
